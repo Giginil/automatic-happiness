@@ -20,6 +20,7 @@ public class ProvaGit {
         NewClass c=new NewClass("hello git");
         
         System.out.println(c);
+        System.out.println("Ciao");
     }
     
 }

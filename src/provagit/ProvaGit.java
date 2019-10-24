@@ -5,6 +5,8 @@
  */
 package provagit;
 
+import provaGit.prova1.NewClass;
+
 /**
  *
  * @author luigi
@@ -15,7 +17,9 @@ public class ProvaGit {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello gitHub git");
+        NewClass c=new NewClass("hello git");
+        
+        System.out.println(c);
     }
     
 }
